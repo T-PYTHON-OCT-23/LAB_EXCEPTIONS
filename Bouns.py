@@ -22,9 +22,7 @@ def main():
             raise TypeError("Invalid unit of measurement. Please enter C or F.")
     except ValueError:
         print("Invalid input. Please enter a valid temperature value.")
-    except ZeroDivisionError:
-        print("Invalid input. Cannot divide by zero.")
-        
+
         
         
 main()
