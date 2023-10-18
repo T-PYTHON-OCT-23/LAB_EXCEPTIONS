@@ -8,7 +8,7 @@ try:
     additoin(10, 20)
 except NameError:
     print("operation failed")
-    print("Undefined variable Error")
+    print("Undefined variable ")
 else:
     print("operation successful")
 finally:
