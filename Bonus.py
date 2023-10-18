@@ -17,9 +17,11 @@ def fahrenheit_to_celsius(fahrenheit):
 
 
 def main():
-    test =0
-    while test!=1:
-        temp_and_unit = input("Enter a temperature and its unit (e.g., 25 C or 77 F): ")
+    
+    while True:
+        temp_and_unit = input("Enter a temperature and its unit (e.g., 25 C or 77 F):->if you want to exit write exit: ")
+        if temp_and_unit=="exit":
+            break
 
         split = temp_and_unit.split(" ")
     
@@ -29,7 +31,7 @@ def main():
 
             if unit.upper() == "C":
                 
-                print(f"Temperature in Celsius: {celsius_to_fahrenheit(temperature)}")
+                print(f"Temperature in Fahrenheit: {celsius_to_fahrenheit(temperature)}")
             elif unit.upper() == "F":
                 print(f"Temperature in Celsius: {fahrenheit_to_celsius(temperature)}")
             else:
@@ -45,7 +47,7 @@ def main():
             print("ValueError")
             print("Enter like this format 25 C or 77 F:")
             print("!!try agine!!")
-        else:test+=1
+        
 
 
 
