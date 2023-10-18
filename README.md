@@ -24,7 +24,6 @@ additoin(10, 20)
 Description: In this exercise, you will practice using Python exceptions by creating a simple temperature converter that accepts user input and converts temperatures between Celsius and Fahrenheit. You will handle various exceptions that might arise during the conversion process.
 
 #### Instructions:
-
 1. Write a function `celsius_to_fahrenheit(celsius)` that takes a Celsius temperature as an argument and returns the equivalent temperature in Fahrenheit. Use the formula `fahrenheit = (celsius * 9/5) + 32`.
 
 2. Write a function `fahrenheit_to_celsius(fahrenheit)` that takes a Fahrenheit temperature as an argument and returns the equivalent temperature in Celsius. Use the formula `celsius = (fahrenheit - 32) * 5/9`.
@@ -45,7 +44,6 @@ Example Output:
 ```
 Enter a temperature and its unit (e.g., "25 C" or "77 F"): 100 F
 Temperature in Celsius: 37.78 C
-
 Enter a temperature and its unit (e.g., "25 C" or "77 F"): 50 C
 Temperature in Fahrenheit: 122.0 F
 
