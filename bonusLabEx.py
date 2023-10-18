@@ -20,7 +20,8 @@ def main():
             # print(f"Temperature in fahrenheit: {temperature} {unit}")
                 print(f"Temperature in Celsius: {fahrenheit_to_celsius(temperature)} C ")
             else:
-                print("Enter the correct temperature , unit F or C")
+                raise TypeError()
+        
         except ValueError:
             print("invalid temperature value , please try agine")
         except TypeError:
