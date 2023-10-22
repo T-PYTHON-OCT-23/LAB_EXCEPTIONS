@@ -7,4 +7,6 @@ def additoin(x, y):
 try: 
     additoin(10, 20)
 except NameError as e:
-    print("name not defind")    
+    print("name not defind")   
+else:
+    print("opration is successful") 
