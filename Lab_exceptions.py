@@ -9,4 +9,6 @@ try:
 except NameError:
     print("name of varible don't true please check it")
 except Exception as e:
-    print("something went wrong")    
+    print("something went wrong")  
+else:
+    print("The operation is successful")      
